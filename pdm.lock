@@ -276,6 +276,11 @@ requires_python = ">=3.7"
 summary = "Markdown URL utilities"
 
 [[package]]
+name = "mpmath"
+version = "1.2.1"
+summary = "Python library for arbitrary-precision floating-point arithmetic"
+
+[[package]]
 name = "nbformat"
 version = "5.7.3"
 requires_python = ">=3.7"
@@ -497,6 +502,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "sympy"
+version = "1.11.1"
+requires_python = ">=3.8"
+summary = "Computer algebra system (CAS) in Python"
+dependencies = [
+    "mpmath>=0.19",
+]
+
+[[package]]
 name = "tenacity"
 version = "8.1.0"
 requires_python = ">=3.6"
@@ -527,7 +541,7 @@ summary = "Measures the displayed width of unicode strings in a terminal"
 
 [metadata]
 lock_version = "4.1"
-content_hash = "sha256:5727372a745f6e5b391ffc7d6ae5b074915ba085dcbbc8f1e6f54a00d7792b5a"
+content_hash = "sha256:a60352410e70bf829ac3c18473fccaf676a16a302d7ce5195155f494f4d706c0"
 
 [metadata.files]
 "appnope 0.1.3" = [
@@ -937,6 +951,10 @@ content_hash = "sha256:5727372a745f6e5b391ffc7d6ae5b074915ba085dcbbc8f1e6f54a00d
 "mdurl 0.1.2" = [
     {url = "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl", hash = "sha256:84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"},
     {url = "https://files.pythonhosted.org/packages/d6/54/cfe61301667036ec958cb99bd3efefba235e65cdeb9c84d24a8293ba1d90/mdurl-0.1.2.tar.gz", hash = "sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"},
+]
+"mpmath 1.2.1" = [
+    {url = "https://files.pythonhosted.org/packages/95/ba/7384cb4db4ed474d4582944053549e02ec25da630810e4a23454bc9fa617/mpmath-1.2.1.tar.gz", hash = "sha256:79ffb45cf9f4b101a807595bcb3e72e0396202e0b1d25d689134b48c4216a81a"},
+    {url = "https://files.pythonhosted.org/packages/d4/cf/3965bddbb4f1a61c49aacae0e78fd1fe36b5dc36c797b31f30cf07dcbbb7/mpmath-1.2.1-py3-none-any.whl", hash = "sha256:604bc21bd22d2322a177c73bdb573994ef76e62edd595d17e00aff24b0667e5c"},
 ]
 "nbformat 5.7.3" = [
     {url = "https://files.pythonhosted.org/packages/21/ad/020fed74bfde983a3b70cc95843d6adbe59171aa9a3da5aab403aa722a17/nbformat-5.7.3-py3-none-any.whl", hash = "sha256:22a98a6516ca216002b0a34591af5bcb8072ca6c63910baffc901cfa07fefbf0"},
@@ -1438,6 +1456,10 @@ content_hash = "sha256:5727372a745f6e5b391ffc7d6ae5b074915ba085dcbbc8f1e6f54a00d
 "stack-data 0.6.2" = [
     {url = "https://files.pythonhosted.org/packages/6a/81/aa96c25c27f78cdc444fec27d80f4c05194c591465e491a1358d8a035bc1/stack_data-0.6.2-py3-none-any.whl", hash = "sha256:cbb2a53eb64e5785878201a97ed7c7b94883f48b87bfb0bbe8b623c74679e4a8"},
     {url = "https://files.pythonhosted.org/packages/db/18/aa7f2b111aeba2cd83503254d9133a912d7f61f459a0c8561858f0d72a56/stack_data-0.6.2.tar.gz", hash = "sha256:32d2dd0376772d01b6cb9fc996f3c8b57a357089dec328ed4b6553d037eaf815"},
+]
+"sympy 1.11.1" = [
+    {url = "https://files.pythonhosted.org/packages/2d/49/a2d03101e2d28ad528968144831d506344418ef1cc04839acdbe185889c2/sympy-1.11.1-py3-none-any.whl", hash = "sha256:938f984ee2b1e8eae8a07b884c8b7a1146010040fccddc6539c54f401c8f6fcf"},
+    {url = "https://files.pythonhosted.org/packages/5a/36/4667b08bc45131fe655a27b1a112c1730f3244343c53a338f44d730bd6ba/sympy-1.11.1.tar.gz", hash = "sha256:e32380dce63cb7c0108ed525570092fd45168bdae2faa17e528221ef72e88658"},
 ]
 "tenacity 8.1.0" = [
     {url = "https://files.pythonhosted.org/packages/a5/94/933ce16d18450ccf518a6da5bd51418611e8776b992070b9f40b2f9cedff/tenacity-8.1.0-py3-none-any.whl", hash = "sha256:35525cd47f82830069f0d6b73f7eb83bc5b73ee2fff0437952cedf98b27653ac"},
