@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 
 .idea/
+
+# 测试用
+my_test.ipynb
